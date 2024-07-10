@@ -1,0 +1,30 @@
+    @media only screen and (max-width: 600px) {
+        .popup {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 100%; 
+            padding: 100px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .popup-content {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .button-container {
+        }
+
+       .popup-content p {
+            font-size: 23px; 
+            margin: 10px 0;
+        
+        
+        }
+    }
